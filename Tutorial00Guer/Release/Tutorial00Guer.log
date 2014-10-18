@@ -1,0 +1,57 @@
+﻿Build started 18/10/2014 12:59:52 PM.
+     1>Project "C:\Users\Matt\Documents\Visual Studio 2012\Projects\2DGame\Tutorial00Guer\Tutorial00Guer.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ddsTexture.cpp DXApp.cpp dxerr\dxerr.cpp DXUtil.cpp GameTimer.cpp Input.cpp player.cpp Sprite.cpp tile.cpp winmain.cpp
+         ddsTexture.cpp
+         DXApp.cpp
+     1>c:\users\matt\documents\visual studio 2012\projects\2dgame\tutorial00guer\GameTimer.h(39): warning C4305: '=' : truncation from 'double' to 'float'
+     1>DXApp.cpp(172): warning C4018: '<' : signed/unsigned mismatch
+         dxerr.cpp
+         DXUtil.cpp
+         GameTimer.cpp
+     1>c:\users\matt\documents\visual studio 2012\projects\2dgame\tutorial00guer\GameTimer.h(39): warning C4305: '=' : truncation from 'double' to 'float'
+         Input.cpp
+         player.cpp
+         Sprite.cpp
+         tile.cpp
+         winmain.cpp
+     1>c:\users\matt\documents\visual studio 2012\projects\2dgame\tutorial00guer\GameTimer.h(39): warning C4305: '=' : truncation from 'double' to 'float'
+     1>winmain.cpp(142): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>winmain.cpp(144): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>winmain.cpp(146): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>winmain.cpp(148): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>winmain.cpp(226): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>winmain.cpp(236): warning C4018: '<' : signed/unsigned mismatch
+     1>winmain.cpp(238): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>winmain.cpp(240): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>winmain.cpp(240): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>winmain.cpp(242): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>winmain.cpp(244): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>winmain.cpp(244): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>winmain.cpp(270): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>winmain.cpp(280): warning C4018: '<' : signed/unsigned mismatch
+     1>winmain.cpp(282): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>winmain.cpp(284): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>winmain.cpp(284): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>winmain.cpp(286): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>winmain.cpp(288): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Matt\Documents\Visual Studio 2012\Projects\2DGame\Release\2D Game.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Matt\Documents\Visual Studio 2012\Projects\2DGame\Release\2D Game.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Matt\Documents\Visual Studio 2012\Projects\2DGame\Release\2D Game.lib" /MACHINE:X86 /SAFESEH Release\ddsTexture.obj
+         Release\DXApp.obj
+         Release\dxerr.obj
+         Release\DXUtil.obj
+         Release\GameTimer.obj
+         Release\Input.obj
+         Release\player.obj
+         Release\Sprite.obj
+         Release\tile.obj
+         Release\winmain.obj
+         "C:\Users\Matt\Documents\Visual Studio 2012\Projects\DXTK\Bin\Desktop_2012\Win32\Release\DirectXTK.lib"
+         Generating code
+         Finished generating code
+         Tutorial00Guer.vcxproj -> C:\Users\Matt\Documents\Visual Studio 2012\Projects\2DGame\Release\2D Game.exe
+     1>Done Building Project "C:\Users\Matt\Documents\Visual Studio 2012\Projects\2DGame\Tutorial00Guer\Tutorial00Guer.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.55

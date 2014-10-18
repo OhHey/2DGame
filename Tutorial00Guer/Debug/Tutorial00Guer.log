@@ -1,0 +1,51 @@
+﻿Build started 15/10/2014 9:57:16 PM.
+     1>Project "C:\Users\Matt\Documents\Visual Studio 2012\Projects\2D Game\Tutorial00Guer\Tutorial00Guer.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt winmain.cpp
+         winmain.cpp
+     1>c:\users\matt\documents\visual studio 2012\projects\2d game\tutorial00guer\gametimer.h(39): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\matt\documents\visual studio 2012\projects\2d game\tutorial00guer\aabb.h(21): warning C4189: 'd' : local variable is initialized but not referenced
+     1>c:\users\matt\documents\visual studio 2012\projects\2d game\tutorial00guer\winmain.cpp(66): warning C4100: 'nShowCmd' : unreferenced formal parameter
+     1>c:\users\matt\documents\visual studio 2012\projects\2d game\tutorial00guer\winmain.cpp(66): warning C4100: 'lpCmdLine' : unreferenced formal parameter
+     1>c:\users\matt\documents\visual studio 2012\projects\2d game\tutorial00guer\winmain.cpp(66): warning C4100: 'hPrevInstance' : unreferenced formal parameter
+     1>c:\users\matt\documents\visual studio 2012\projects\2d game\tutorial00guer\winmain.cpp(142): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\matt\documents\visual studio 2012\projects\2d game\tutorial00guer\winmain.cpp(144): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\matt\documents\visual studio 2012\projects\2d game\tutorial00guer\winmain.cpp(146): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\matt\documents\visual studio 2012\projects\2d game\tutorial00guer\winmain.cpp(148): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\matt\documents\visual studio 2012\projects\2d game\tutorial00guer\winmain.cpp(228): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\matt\documents\visual studio 2012\projects\2d game\tutorial00guer\winmain.cpp(238): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\matt\documents\visual studio 2012\projects\2d game\tutorial00guer\winmain.cpp(240): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\matt\documents\visual studio 2012\projects\2d game\tutorial00guer\winmain.cpp(242): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\matt\documents\visual studio 2012\projects\2d game\tutorial00guer\winmain.cpp(242): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\matt\documents\visual studio 2012\projects\2d game\tutorial00guer\winmain.cpp(245): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\matt\documents\visual studio 2012\projects\2d game\tutorial00guer\winmain.cpp(247): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\matt\documents\visual studio 2012\projects\2d game\tutorial00guer\winmain.cpp(277): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\matt\documents\visual studio 2012\projects\2d game\tutorial00guer\winmain.cpp(287): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\matt\documents\visual studio 2012\projects\2d game\tutorial00guer\winmain.cpp(289): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\matt\documents\visual studio 2012\projects\2d game\tutorial00guer\winmain.cpp(291): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\matt\documents\visual studio 2012\projects\2d game\tutorial00guer\winmain.cpp(291): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\matt\documents\visual studio 2012\projects\2d game\tutorial00guer\winmain.cpp(294): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\matt\documents\visual studio 2012\projects\2d game\tutorial00guer\winmain.cpp(296): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\matt\documents\visual studio 2012\projects\2d game\tutorial00guer\winmain.cpp(387): warning C4100: 'dt' : unreferenced formal parameter
+     1>c:\users\matt\documents\visual studio 2012\projects\2d game\tutorial00guer\winmain.cpp(292): warning C4702: unreachable code
+     1>c:\users\matt\documents\visual studio 2012\projects\2d game\tutorial00guer\winmain.cpp(297): warning C4702: unreachable code
+     1>c:\users\matt\documents\visual studio 2012\projects\2d game\tutorial00guer\winmain.cpp(243): warning C4702: unreachable code
+     1>c:\users\matt\documents\visual studio 2012\projects\2d game\tutorial00guer\winmain.cpp(248): warning C4702: unreachable code
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Matt\Documents\Visual Studio 2012\Projects\2D Game\Debug\2D Game.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Matt\Documents\Visual Studio 2012\Projects\2D Game\Debug\2D Game.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Matt\Documents\Visual Studio 2012\Projects\2D Game\Debug\2D Game.lib" /MACHINE:X86 Debug\ddsTexture.obj
+         Debug\DXApp.obj
+         Debug\dxerr.obj
+         Debug\DXUtil.obj
+         Debug\GameTimer.obj
+         Debug\Input.obj
+         Debug\player.obj
+         Debug\Sprite.obj
+         Debug\tile.obj
+         Debug\winmain.obj
+         "C:\Users\Matt\Documents\Visual Studio 2012\Projects\DXTK\Bin\Desktop_2012\Win32\Debug\DirectXTK.lib"
+         Tutorial00Guer.vcxproj -> C:\Users\Matt\Documents\Visual Studio 2012\Projects\2D Game\Debug\2D Game.exe
+     1>Done Building Project "C:\Users\Matt\Documents\Visual Studio 2012\Projects\2D Game\Tutorial00Guer\Tutorial00Guer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.73
